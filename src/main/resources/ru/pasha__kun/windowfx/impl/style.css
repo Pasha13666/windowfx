@@ -1,0 +1,69 @@
+
+.window-root {
+    -fx-background-radius: 8px;
+    -fx-background-color: rgba(116, 184, 252, 0.4196078431372549);
+    -fx-effect: dropshadow(three-pass-box, rgba(116, 184, 252, 0.4196078431372549), 10, 0.3, 0, 0);
+}
+
+.window-root >.window-content-wrapper >.window-content {
+    -fx-background-color: white;
+    -fx-padding: 5px;
+}
+
+.window-root >.window-panel {
+    -fx-pref-height: 37px;
+}
+
+.window-root >.window-panel >.window-panel-right,
+.window-root >.window-panel >.window-panel-left {
+    -fx-spacing: 5px;
+}
+
+.window-root >.window-panel >.window-panel-right >.window-action-button {
+    -fx-min-width: 32;
+    -fx-min-height: 32;
+    -fx-max-width: 32;
+    -fx-max-height: 32;
+    -fx-background-color: rgba(116, 184, 252, 0.4196078431372549);
+    -fx-background-radius: 0px 0px 5px 5px;
+}
+
+.window-root >.window-panel >.window-panel-right >.window-action-button:hover {
+    -fx-background-color: rgba(116, 184, 252, 0.8);
+    -fx-background-radius: 0px 0px 5px 5px;
+}
+
+.window-root >.window-panel >.window-panel-right >.window-action-close {
+    -fx-graphic: url('/ru/pasha__kun/windowfx/images/close.png');
+    -fx-background-color: rgba(252, 116, 184, 0.4196078431372549);
+    -fx-background-radius: 0px 8px 5px 5px;
+}
+
+.window-root >.window-panel >.window-panel-right >.window-action-close:hover {
+    -fx-background-color: rgba(252, 116, 184, 0.8);
+    -fx-background-radius: 0px 8px 5px 5px;
+}
+
+.window-root >.window-panel >.window-panel-right >.window-action-iconify {
+    -fx-graphic: url('/ru/pasha__kun/windowfx/images/iconify.png');
+}
+
+.window-root >.window-panel >.window-panel-right >.window-action-fullscreen {
+    -fx-graphic: url('/ru/pasha__kun/windowfx/images/fullscreen.png');
+}
+
+.window-root >.window-panel >.window-panel-right >.window-action-help {
+    -fx-graphic: url('/ru/pasha__kun/windowfx/images/help.png');
+}
+
+.window-root >.window-panel >.window-panel-right >.window-action-iconify:disabled {
+    -fx-graphic: url('/ru/pasha__kun/windowfx/images/iconify-disabled.png');
+}
+
+.window-root >.window-panel >.window-panel-right >window-action-fullscreen:disabled {
+    -fx-graphic: url('/ru/pasha__kun/windowfx/images/fullscreen-disabled.png');
+}
+
+.window-root >.window-panel >.window-panel-right >.window-action-help:disabled {
+    -fx-graphic: url('/ru/pasha__kun/windowfx/images/help-disabled.png');
+}
